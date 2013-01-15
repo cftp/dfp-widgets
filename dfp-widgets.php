@@ -26,4 +26,4 @@ GNU General Public License for more details.
 
 defined( 'ABSPATH' ) or die();
 
-include dirname( __FILE__ ) . '/class.widget.php';
+require_once( dirname( __FILE__ ) . '/class.widget.php' );

@@ -13,7 +13,7 @@ class DFP_Widget extends WP_Widget {
 	 **/
 	function __construct() {
 		parent::WP_Widget( false, __( 'Google DFP', 'dfpw' ), array(
-			'description' => __( 'Google DoubleClick for Publishers ad box', 'facetious' )
+			'description' => __( 'Google DoubleClick for Publishers ad box', 'dfpw' )
 		) );
 	}
 
